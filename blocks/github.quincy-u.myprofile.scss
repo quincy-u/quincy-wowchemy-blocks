@@ -4,4 +4,11 @@
     height: auto;
     aspect-ratio: 2 / 3; /* This will make the height 1.5 times of the width */
 }
-  
+
+.home-section:first-of-type {
+    padding-top: 10vh;
+}
+
+.home-section {
+    height: 100vh;
+}
