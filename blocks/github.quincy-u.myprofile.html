@@ -90,6 +90,7 @@
   <div class="col-12 col-lg-8">
 
     {{/* Only display widget title in explicit instances of about widget, not in author pages. */}}
+    {{ with $block.content.title }}<h1>Bio</h1>{{ end }}
 
     {{ with $person_page.Content }}
     <div class="article-style">
