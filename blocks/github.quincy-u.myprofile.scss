@@ -1,10 +1,6 @@
 /* Add your block style here */
-.avatar-container {
-    width: 100%; /* Adjust as needed */
-}
-  
+
 .avatar-container .avatar {
-    width: 100%;
     height: auto;
     aspect-ratio: 2 / 3; /* This will make the height 1.5 times of the width */
 }
